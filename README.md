@@ -52,7 +52,7 @@ python3 deconv_tool.py /full/path/to/vod-converter /full/path/to/vod-converter
 ```
 
 After this command vod-converter can be executed with python3.5 which is python3 in
-older python distros. 
+older Linux distros. 
 
 Users can also import the deconverter.py as a module or use the deconv_tool.py.
 
