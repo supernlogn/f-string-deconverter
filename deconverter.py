@@ -1,6 +1,7 @@
 """
 written by
 Ioannis Athanasiadis(supernlogn)
+functions for deconverting f-strings inside expressions to simple python strings
 """
 import re
 import os
