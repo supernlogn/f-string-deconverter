@@ -35,11 +35,7 @@ file1.py to file2.py
 ```python
     from deconverter import deconvert_strings_in_file
     deconvert_strings_in_file('file1.py', 'file2.py')
-```ndencies & Libraries
-
-    re
-    os
-    itertools All provided by the pyth
+```
 
 ###### convert folders
 folder1 to folder2
