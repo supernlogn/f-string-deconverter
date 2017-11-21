@@ -10,7 +10,8 @@ This project provides a tool to convert:
 1. re
 2. os
 3. itertools
-All provided by the python 3 installation
+
+All are provided by the python 3 installation
 
 ### Examples
 ###### convert string expression
@@ -34,7 +35,11 @@ file1.py to file2.py
 ```python
     from deconverter import deconvert_strings_in_file
     deconvert_strings_in_file('file1.py', 'file2.py')
-```
+```ndencies & Libraries
+
+    re
+    os
+    itertools All provided by the pyth
 
 ###### convert folders
 folder1 to folder2
