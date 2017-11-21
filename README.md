@@ -20,7 +20,7 @@ old_expr:
 ``` 
 to new_expr:
 ```python 
-    s = f"{},{},{:06d}".format(alpha, beta, gamma) 
+    s = "{},{},{:06d}".format(alpha, beta, gamma) 
 ```
 
 ```python
