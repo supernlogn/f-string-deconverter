@@ -14,12 +14,19 @@ All provided by the python 3 installation
 
 ### Examples
 ###### convert string expression
+old_expr:
 ```python 
     s = f"{alpha},{beta},{gamma:06d}" 
 ``` 
-to 
+to new_expr:
 ```python 
     s = f"{},{},{:06d}".format(alpha, beta, gamma) 
+```
+
+```python
+    from deconverter import deconvert_string
+    old_expr = 's = f"{alpha},{beta},{gamma:06d}"'
+    new_expr = deconvert_string(old_expr)
 ```
 
 ###### convert files:
