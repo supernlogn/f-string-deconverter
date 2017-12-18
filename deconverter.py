@@ -74,9 +74,9 @@ def deconvert_string(s, sep_space=1):
 
 
 def deconvert_strings_in_file(rd_file_p, wr_file_p):
-  """Deconverts all string in a file
+  """Deconverts all strings in a file
     Descr:
-      Produces a file specdified by wr_file_p which is
+      Produces a file specified by wr_file_p which is
       the same as rd_file_p but with all f-strings deconverted to normal strings
     Args:
       rd_file_p: path of input file to deconvert
