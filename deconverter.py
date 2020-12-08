@@ -85,6 +85,8 @@ def deconvert_strings_in_file(rd_file_p, wr_file_p):
   with open(rd_file_p, "r") as rd_file:
     file_data = rd_file.read()
     with open(wr_file_p, "w") as wr_file:
+      #patern1 = re.compile('[f]{1,1}["]{1,1}[\s\S]*?[!\\]+["]{1,1}')
+      #patern2 = re.compile('[f]{1,1}[\']{1,1}[\s\S]*?[!\\]+[\']{1,1}')
       patern1 = re.compile('[f]{1,1}["]{1,1}.+["]{1,1}')
       patern2 = re.compile('[f]{1,1}[\']{1,1}.+[\']{1,1}')
       f_strings = chain(re.finditer(patern1, file_data), 
