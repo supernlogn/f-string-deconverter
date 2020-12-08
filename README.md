@@ -56,6 +56,9 @@ older Linux distros.
 
 Users can also import the deconverter.py as a module or use the deconv_tool.py.
 
+## Testing
+There is a python file in tests [.in.py](tests/examples.in.py) and a desired output file [.out.py](tests/examples.out.py) in tests. So if you run vod converter in any of these examples in the file, there should be no diffence with the desired output file.
+
 #### Note
 This repo is still under development/testing,
 if you find any bugs, please report them to the issues tab.
